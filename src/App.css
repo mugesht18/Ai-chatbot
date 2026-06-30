@@ -249,3 +249,92 @@ body {
     width:70%;
     line-height:1.6;
 }
+
+
+
+@media screen and (max-width: 768px){
+
+  .App{
+    flex-direction: column;
+  }
+
+  .sideBar{
+    width:100%;
+    border-right:none;
+    border-bottom:1px solid rgb(100,100,100);
+  }
+
+  .upperSide{
+    padding:1.5rem;
+    height:auto;
+  }
+
+  .midBtn,
+  .query{
+    width:100%;
+  }
+
+  .main{
+    margin:2rem 1rem;
+  }
+
+  .chats{
+    width:100%;
+    height:calc(100vh - 24rem);
+  }
+
+  .inp{
+    width:100%;
+  }
+
+  .inp input{
+    width:100%;
+  }
+
+  .chat{
+    padding:1.5rem;
+  }
+
+  .chatFooter p{
+    text-align:center;
+    padding:0 1rem;
+    font-size:1.2rem;
+  }
+
+
+
+/* ===========================
+   Mobile Responsive
+=========================== */
+
+@media screen and (max-width: 768px) {
+
+  .App{
+    flex-direction: column;
+  }
+
+  .sideBar{
+    width:100%;
+    border-right:none;
+    border-bottom:none;
+  }
+
+  /* Hide these on mobile */
+  .lowerSide{
+    display:none;
+  }
+
+  .upperSideBottom{
+    display:none;
+  }
+
+  .upperSide{
+    height:auto;
+    padding:1.5rem;
+  }
+
+  .midBtn{
+    width:100%;
+  }
+}
+}
